@@ -1,0 +1,16 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .heading {
+    color: rgb(78, 78, 195);
+  }
+  ul {
+    color: red;
+  }
+  
+  img {
+    width: 200px;
+    height: 130px;
+  }
+  
