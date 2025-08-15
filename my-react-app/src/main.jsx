@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import Heading from "./Heading";
+import List from "./List";
 // import App from "./App";
 
 const rootElement = document.getElementById("root");
@@ -12,6 +13,7 @@ const num = 7;
 const year = new Date().getFullYear();
 const date = new Date(2025, 3, 3, 16);
 const currentTime = date.getHours();
+// const date = new Date(2025, 3, 3, 16);
 const image = "https://picsum.photos/200";
 const customStyle = {
   color: "red",
@@ -35,15 +37,19 @@ root.render(
       Hello {fName + " " + lName}{" "}
     </h1>
     <h1 style={customStyle}>{greeting}</h1>
+    <Heading />
 
     <p>Your lucky no is : {num}</p>
     <img src={image}></img>
     <p>List of Places.</p>
+
     <ul>
       <li>Trivandrum</li>
       <li>Kanykumari</li>
       <li>Kochi</li>
     </ul>
+
+    <List />
     <img src="https://w0.peakpx.com/wallpaper/548/907/HD-wallpaper-lionel-messi-barcelona-football-spain-catalonia-argentine-football-player.jpg"></img>
     <img src="https://fifpro.org/media/fhmfhvkx/messi-world-cup.jpg"></img>
     <img src="https://w0.peakpx.com/wallpaper/286/774/HD-wallpaper-leo-messi-barcelona-fc-football-spain-catalonia-argentinian-football-player-lionel-messi.jpg"></img>
